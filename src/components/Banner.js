@@ -58,7 +58,7 @@ export const Banner = () => {
                 {/* <span className="tagline">Portfolio Website</span> */}
                 <h1>{`Hey, I am Rishabh`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Software Developer", "Web Developer", "Competetive Programmer", "UI/UX Designer" , "BlockChain Developer"]'><span className="wrap">{text}</span></span></h1>
                   <p>I am a second-year student at IIITM, deeply passionate about web development. I'm keen on exploring Blockchain Development as well. Alongside my development skills, I'm an enthusiastic competitive programmer, keen on problem-solving and mastering Data Structures and Algorithms and more inclined towards it.</p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                  <a href="https://www.linkedin.com/in/rishabh-agarwal-267279259"><button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button></a>
               </div>}
             </TrackVisibility>
           </Col>

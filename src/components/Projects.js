@@ -3,7 +3,7 @@ import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/img1.PNG";
 import projImg2 from "../assets/img/img2.png";
 import projImg3 from "../assets/img/img4.png";
-import img4 from "../assets/img/img5.png";
+import img4 from "../assets/img/cc.PNG";
 import img5 from "../assets/img/img6.png";
 import img6 from "../assets/img/img7.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
@@ -17,32 +17,39 @@ export const Projects = () => {
       title: "JP Morgan SWE",
       description: "Used React, TypeScript and Python",
       imgUrl: projImg1,
+      projectUrl: "https://github.com/Rishabh-Ag17/forage-jpmc-swe-task-3",
+    },
+    {
+      title: "Coin Coffer",
+      description: "Developed a token staking application where you can claim rewards for staking your Sepolia tokens",
+      imgUrl: img4,
+      projectUrl: "https://coin-coffer-6bj8.vercel.app/",
     },
     {
       title: "Assistify",
       description: "Used ReactJs with OAuth",
       imgUrl: projImg2,
+      projectUrl: "https://assistify-vercel.vercel.app/",
     },
     {
       title: "CodeChef Problem Pinger",
       description: "An extension that sends a notification after every submission in a contest about the result of the submission",
       imgUrl: projImg3,
+      projectUrl: "https://github.com/Rishabh-Ag17/Codechef-ProblemPinger",
     },
     {
       title: "Kolkata Metro System",
       description: "Used to find the best route between various metros in Kolkata",
       imgUrl: img6,
+      projectUrl: "https://github.com/Rishabh-Ag17/Kolkata_Metro",
     },
     {
       title: "SushiiLive",
       description: "Designed the homepage for a company including dark and light mode",
       imgUrl: img5,
+      projectUrl: "https://github.com/Rishabh-Ag17/SushiiLive",
     },
-    {
-      title: "Guess The Year",
-      description: "Developed a fun game to guess the year of an event",
-      imgUrl: img4,
-    },
+    
   ];
 
   return (
@@ -85,8 +92,8 @@ export const Projects = () => {
                     <Tab.Pane eventKey="second">
                       <p>Here's a small glimpse at my coding profiles accross various platforms. Do check them out using the handles below!</p>
                       <ul>
-                        <li>Knight at LeetCode with a rating of 1881 - Account - <a href="">rishabhag</a></li>
-                        <li>Specialist at CodeForces with a rating of 1475 - Account - <a href="">rishabh_ag</a></li>
+                        <li>Knight at LeetCode with a rating of 1966 - Account - <a href="">rishabhag</a></li>
+                        <li>Specialist at CodeForces with a rating of 1516 - Account - <a href="">rishabh_ag</a></li>
                         <li>4 Star at CodeChef with a rating of 1800+ - Account - <a href="">rishabh_ag17</a></li>
                         <li>Specialist at CodeStudio - Account - <a href="">Rishabh-Agarwal</a></li>
                       </ul>
@@ -101,7 +108,7 @@ export const Projects = () => {
                         <li>Software Engineering - Grade : 10/10</li>
                         <li>Object Oriented Programming - Grade : 9/10</li>
                         <li>Computer Network - Grade : 10/10</li>
-                        <li>Artificial Intelligence - Grade : 9/10</li>
+                        <li>Artificial Intelligence - Grade : 10/10</li>
                       </ul>
                     </Tab.Pane>
                   </Tab.Content>
