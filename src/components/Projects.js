@@ -4,8 +4,8 @@ import projImg1 from "../assets/img/img1.PNG";
 import projImg2 from "../assets/img/img2.png";
 import projImg3 from "../assets/img/img4.png";
 import img4 from "../assets/img/cc.PNG";
-import img5 from "../assets/img/img6.png";
-import img6 from "../assets/img/img7.png";
+import img5 from "../assets/img/crypto.jpg";
+import img6 from "../assets/img/url.jpg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -38,16 +38,16 @@ export const Projects = () => {
       projectUrl: "https://github.com/Rishabh-Ag17/Codechef-ProblemPinger",
     },
     {
-      title: "Kolkata Metro System",
-      description: "Used to find the best route between various metros in Kolkata",
+      title: "URL Shortener",
+      description: "Developed a URL shortener application that efficiently converts long URLs into concise links",
       imgUrl: img6,
-      projectUrl: "https://github.com/Rishabh-Ag17/Kolkata_Metro",
+      projectUrl: "https://github.com/Rishabh-Ag17/URL_Shortener",
     },
     {
-      title: "SushiiLive",
-      description: "Designed the homepage for a company including dark and light mode",
+      title: "CryptoTracker",
+      description: "Focuses on Backend Development, handling backgroudn jobs and interacting with APIs",
       imgUrl: img5,
-      projectUrl: "https://github.com/Rishabh-Ag17/SushiiLive",
+      projectUrl: "https://github.com/Rishabh-Ag17/crypto-tracker",
     },
     
   ];
