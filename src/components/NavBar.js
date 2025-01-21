@@ -4,7 +4,7 @@ import logo from '../assets/font/logo1.png';
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/icons8-github.svg';
 import navIcon3 from '../assets/img/nav-icon3.svg';
-import resume from '../assets/img/RishabhSingleResume (2).pdf';
+import resume from '../assets/img/Rishabh_Agarwal (1).pdf';
 import { HashLink } from 'react-router-hash-link';
 import {
   BrowserRouter as Router

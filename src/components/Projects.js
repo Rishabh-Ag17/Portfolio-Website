@@ -68,7 +68,7 @@ export const Projects = () => {
                       <Nav.Link eventKey="first">Projects</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="second">Coding Profiles</Nav.Link>
+                      <Nav.Link eventKey="second">Achievements</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
                       <Nav.Link eventKey="third">CourseWork</Nav.Link>
@@ -92,9 +92,11 @@ export const Projects = () => {
                     <Tab.Pane eventKey="second">
                       <p>Here's a small glimpse at my coding profiles accross various platforms. Do check them out using the handles below!</p>
                       <ul>
-                        <li>Knight at LeetCode with a rating of 1966 - Account - <a href="">rishabhag</a></li>
-                        <li>Specialist at CodeForces with a rating of 1516 - Account - <a href="">rishabh_ag</a></li>
-                        <li>4 Star at CodeChef with a rating of 1800+ - Account - <a href="">rishabh_ag17</a></li>
+                        <li>I have been selected in the Amazon ML Summer School 2024</li>
+                        <li>Attained a World Rank of 1016 at the Meta HackerCup 2024</li>
+                        <li>Expert at CodeForces with a rating of 1674 - Account - <a href="">rishabh_17</a></li>
+                        <li>Knight at LeetCode with a rating of 2115 - Account - <a href="">rishabhag</a></li>
+                        <li>4 Star at CodeChef with a rating of 1874 - Account - <a href="">rishabh_ag17</a></li>
                         <li>Specialist at CodeStudio - Account - <a href="">Rishabh-Agarwal</a></li>
                       </ul>
                     </Tab.Pane>
