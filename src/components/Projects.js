@@ -1,9 +1,9 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/img1.PNG";
-import projImg2 from "../assets/img/img2.png";
+import projImg1 from "../assets/img/deshare.png";
+import projImg2 from "../assets/img/bot.jpg";
 import projImg3 from "../assets/img/img4.png";
-import img4 from "../assets/img/cc.PNG";
+import img4 from "../assets/img/cc.jpg";
 import img5 from "../assets/img/crypto.jpg";
 import img6 from "../assets/img/url.jpg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
@@ -14,10 +14,10 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "JP Morgan SWE",
-      description: "Used React, TypeScript and Python",
+      title: "De-Share",
+      description: "Engineered a decentralized file sharing system, and enabling permission-based access management.",
       imgUrl: projImg1,
-      projectUrl: "https://github.com/Rishabh-Ag17/forage-jpmc-swe-task-3",
+      projectUrl: "https://de-docs-client-solved.vercel.app/",
     },
     {
       title: "Coin Coffer",
@@ -26,10 +26,10 @@ export const Projects = () => {
       projectUrl: "https://coin-coffer-6bj8.vercel.app/",
     },
     {
-      title: "Assistify",
-      description: "Used ReactJs with OAuth",
+      title: "LinkedBot",
+      description: "A smart Discord bot that helps job seekers craft professional resumes, LinkedIn profiles, and cover letters. ",
       imgUrl: projImg2,
-      projectUrl: "https://assistify-vercel.vercel.app/",
+      projectUrl: "https://github.com/Rishabh-Ag17/LinkedBot",
     },
     {
       title: "CodeChef Problem Pinger",

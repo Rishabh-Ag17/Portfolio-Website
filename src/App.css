@@ -364,6 +364,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: center;
   width: 56%;
 }
+.white-text {
+  color: white;
+}
 .project ul {
   color: #B8B8B8;
   font-size: 18px;
